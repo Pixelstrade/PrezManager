@@ -1,0 +1,109 @@
+.flex-wrap{
+    flex-wrap:wrap;
+    display:flex;
+    justify-content: flex-start;
+}
+.presentationcontainer > div{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    position: relative;
+}
+.presentationcontainer >div h1.title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: rgba(0,0,0,.6);
+}
+.presentationcontainer .addbox{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 4px;
+    border: 3px #2b303b dashed;
+    display: block;
+
+}
+.presentationcontainer .addbox i{
+    font-size: 200px;
+    display: block;
+    text-align: center;
+    line-height: 250px;
+    color: #2b303b;
+    transition:color .4s;
+}
+.presentationcontainer .addbox:hover i{
+    color: #272b35;
+}
+
+.select2-drop-active{
+    z-index:1051;
+}
+.panel-heading a[data-toggle]{
+    color:#fff;
+    opacity: 1;
+}
+.questionpie svg{
+    height: 500px;
+    width: 100%;
+    display: block;
+}
+#chartview svg{
+    height: 500px;
+}
+#durationpie svg{
+    height: 500px;
+}
+
+
+.page-sidebar{
+    background-color: #00a0d9;
+    left:-225px;
+}
+.page-sidebar a, .page-sidebar button{
+    color: white;
+}
+.page-sidebar a:visited, .page-sidebar button:visited, .page-sidebar a:focus, .page-sidebar button:focus{
+    color: white;
+}
+.page-sidebar .icon-thumbnail{
+    color:white;
+    background: transparent;
+    margin-right: 8px;
+}
+.page-sidebar .icon-thumbnail>i {
+    font-size: 21px;
+    transition:text-shadow .3s;
+    -webkit-transition:text-shadow .3s;
+    -moz-transition:text-shadow .3s;
+    -o-transition:text-shadow .3s;
+    -ms-transition:text-shadow .3s;
+}
+
+.page-sidebar li:hover .icon-thumbnail>i,.page-sidebar li.active .icon-thumbnail>i {
+    text-shadow: 0 0 3px rgba(255,255,255,.5) , 0 0 6px rgba(255,255,255,0.5) , 0 0 13px rgba(255,255,255,.5);
+}
+.page-sidebar .li .title{
+    transition: font-weight .3s;
+}
+
+.page-sidebar li:hover .title,.page-sidebar li.active .title {
+    font-weight: 600;
+
+}
+.page-sidebar .sidebar-menu .menu-items>li>a.detailed>.title {
+    line-height: 48px;
+}
+
+.page-sidebar .sidebar-header{
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.page-sidebar .menu-items li.bottom{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
